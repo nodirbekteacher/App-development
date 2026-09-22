@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qutilar</title>
+  <style>
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ffffff;
+      padding-top: 60px;
+      font-family: sans-serif;
+    }
+
+    
+    .bars-container {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      width: 100%;
+    }
+
+    
+    .bar {
+      height: 48px;
+      border-top: 2px solid #2c3e50;
+      border-right: 2px solid #2c3e50;
+      border-bottom: 2px solid #2c3e50;
+  border-left: none;
+    }
+
+    
+    .bar-white {
+      width: 55%;
+      background-color: #ffffff;
+    }
+
+    .bar-yellow {
+      width: 8%;
+      min-width: 35px;
+      background-color: #ffff00;
+    }
+
+    .bar-blue {
+      width: 32%;
+      background-color: #1e33ff;
+    }
+
+    .bar-green {
+      width: 85%;
+      background-color: #1db968;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bars-container">
+  
+    <div class="bar bar-white"></div>
+
+    
+    <div class="bar bar-yellow"></div>
+
+   
+    <div class="bar bar-blue"></div>
+
+    
+    <div class="bar bar-green"></div>
+  </div>
+
+</body>
+</html>
